@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.header{
+    width:100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+    position: fixed;
+   
+}
+.inner-header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+.logo-container h1{
+    color: green;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo-container h1 span{
+    font-weight: 800;
+    margin-left: 10px;
+}
+.navigation{
+    float: right;
+    height: 100%;
+     
+}
+.navigation a{
+    height:100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 16px;
+    padding-top: 25px;
+
+}
+.navigation a:last-child{
+    padding-right: 0;
+
+}
+a li:hover{
+    color: yellow;
+    font-size: x-large;
+
+
+}
+.main h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 30px auto;
+    margin-top: 60px;
+
+}
+.main h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px auto;
+    margin-top: 30px;
+    color: white;
+}
+body{
+background-image: url(gas.webp);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.advertisement h1 {
+    text-align: center;
+    color: beige;
+
+}
+.advertisement button{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    background-color: white;
+    margin-left: 640px;
+    margin-top: 200px;
+    padding: 20px 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.50;
+   
+}
+.advertisement button:hover{
+    background-color:rgb(255, 33, 33);
+    opacity: 1;
+
+}
